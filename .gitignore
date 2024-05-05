@@ -41,4 +41,3 @@ lerna-debug.log*
 !.yarn/releases
 
 
-pnpm-lock.yaml
