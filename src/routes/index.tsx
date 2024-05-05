@@ -18,8 +18,8 @@ export default component$(() => {
             </a>
             <ul class="flex items-center hidden space-x-8 lg:flex">
               {/* <li><a href="/" aria-label="Our product" title="Our product" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">Products</a></li> */}
-              <li><a href="/" aria-label="Our product" title="Our product" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">Process</a></li>
-              <li><a href="/" aria-label="Product pricing" title="Product pricing" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">Contact</a></li>
+              <li><a href="/" aria-label="Process" title="Process" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">Process</a></li>
+              <li><a href="/" aria-label="Contact Us" title="Contact Us" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">Contact</a></li>
               <li><a href="/" aria-label="About us" title="About us" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">About us</a></li>
             </ul>
           </div>
@@ -28,8 +28,8 @@ export default component$(() => {
               <a
                 href="/"
                 class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-                aria-label="Sign up"
-                title="Sign up"
+                aria-label="Get Quote"
+                title="Get Quote"
               >
                 Get Quote
               </a>
@@ -54,10 +54,11 @@ export default component$(() => {
                         <rect x="14" y="1" width="7" height="6"></rect>
                         <rect x="14" y="11" width="7" height="12"></rect>
                       </svg>
-                      <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">Company</span>
+                      <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">MRADI AFRICA</span>
                     </a>
                   </div>
                   <div>
+                    {/* Add onclick listener and state to either show or hide menu */}
                     <button aria-label="Close Menu" title="Close Menu" class="p-2 -mt-2 -mr-2 transition duration-200 rounded hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline">
                       <svg class="w-5 text-gray-600" viewBox="0 0 24 24">
                         <path
@@ -68,25 +69,14 @@ export default component$(() => {
                     </button>
                   </div>
                 </div>
-                <nav>
+                {/* <nav>
                   <ul class="space-y-4">
                     <li><a href="/" aria-label="Our product" title="Our product" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">Product</a></li>
-                    <li><a href="/" aria-label="Our product" title="Our product" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">Features</a></li>
-                    <li><a href="/" aria-label="Product pricing" title="Product pricing" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">Pricing</a></li>
-                    <li><a href="/" aria-label="About us" title="About us" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">About us</a></li>
-                    <li><a href="/" aria-label="Sign in" title="Sign in" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">Sign in</a></li>
-                    <li>
-                      <a
-                        href="/"
-                        class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-                        aria-label="Sign up"
-                        title="Sign up"
-                      >
-                        Sign up
-                      </a>
-                    </li>
+                    <li><a href="/" aria-label="Process" title="Process" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">Process</a></li>
+                    <li><a href="/" aria-label="About us" title="About Us" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">Contact Us</a></li>
+                    <li><a href="/" aria-label="Contact us" title="Contact us" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">About us</a></li>
                   </ul>
-                </nav>
+                </nav> */}
               </div>
             </div>
           </div>
