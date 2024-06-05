@@ -1,7 +1,12 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
+import { useServerTimeLoader } from "./layout";
+
 
 export default component$(() => {
+
+  const serverTime = useServerTimeLoader();
+
   return (
     <>
       <div class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
@@ -400,7 +405,7 @@ export default component$(() => {
         </div>
         <div class="flex flex-col-reverse justify-between pt-5 pb-10 border-t lg:flex-row">
           <p class="text-sm text-gray-600">
-            © Copyright 2020 Mradi Africa. All rights reserved.
+            © Copyright {serverTime.value.date.substring(0, 4)} Mradi Africa. All rights reserved.
           </p>
           <ul class="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
             <li>
