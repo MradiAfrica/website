@@ -70,22 +70,7 @@ export default component$(() => {
                 <div class="flex items-center justify-between mb-4">
                   <div>
                     <a href="/" aria-label="Company" title="Company" class="inline-flex items-center">
-                      <svg
-                        class="w-8 text-deep-purple-accent-400"
-                        viewBox="0 0 24 24"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-miterlimit="10"
-                        stroke="currentColor"
-                        fill="none"
-                      >
-                        <rect x="3" y="1" width="7" height="12"></rect>
-                        <rect x="3" y="17" width="7" height="6"></rect>
-                        <rect x="14" y="1" width="7" height="6"></rect>
-                        <rect x="14" y="11" width="7" height="12"></rect>
-                      </svg>
-                      <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">MRADI AFRICA</span>
+                    <img  width="752" height="279" src="/image-removebg-preview.png" alt="logo" class="w-32"/>
                     </a>
                   </div>
                   <div>
@@ -389,13 +374,7 @@ export default component$(() => {
         <div class="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
           <div class="sm:col-span-2">
             <a href="/" aria-label="Go home" title="Company" class="inline-flex items-center">
-              <svg class="w-8 text-deep-purple-accent-400" viewBox="0 0 24 24" stroke-linejoin="round" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" stroke="currentColor" fill="none">
-                <rect x="3" y="1" width="7" height="12"></rect>
-                <rect x="3" y="17" width="7" height="6"></rect>
-                <rect x="14" y="1" width="7" height="6"></rect>
-                <rect x="14" y="11" width="7" height="12"></rect>
-              </svg>
-              <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">Mradi Africa</span>
+            <img  width="752" height="279" src="/image-removebg-preview.png" alt="logo" class="w-32"/>
             </a>
             <div class="mt-6 lg:max-w-sm">
               <p class="text-sm text-gray-800">
