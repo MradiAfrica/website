@@ -19,22 +19,8 @@ export default component$(() => {
         <div class="relative flex items-center justify-between">
           <div class="flex items-center">
             <a href="/" aria-label="Company" title="Company" class="inline-flex items-center mr-8">
-              <svg
-                class="w-8 text-deep-purple-accent-400"
-                viewBox="0 0 24 24"
-                stroke-linejoin="round"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-miterlimit="10"
-                stroke="currentColor"
-                fill="none"
-              >
-                <rect x="3" y="1" width="7" height="12"></rect>
-                <rect x="3" y="17" width="7" height="6"></rect>
-                <rect x="14" y="1" width="7" height="6"></rect>
-                <rect x="14" y="11" width="7" height="12"></rect>
-              </svg>
-              <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">MRADI AFRICA</span>
+              <img  width="752" height="279" src="/image-removebg-preview.png" alt="logo" class="w-32"/>
+                {/* <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">MRADI AFRICA</span> */}
             </a>
             <ul class="flex items-center hidden space-x-8 lg:flex">
               <li>
@@ -149,7 +135,7 @@ export default component$(() => {
       </div>
 
 
-      <div class="relative flex flex-col-reverse px-4 py-16 mx-auto lg:block lg:flex-col lg:py-32 xl:py-48 md:px-8 sm:max-w-xl md:max-w-full "> 
+      <div class="relative flex flex-col-reverse px-4 py-16 mx-auto lg:block lg:flex-col lg:py-32 xl:py-48 md:px-8 sm:max-w-xl md:max-w-full ">
         <div class="z-0 flex justify-center h-full -mx-4 overflow-hidden lg:pt-24 lg:pb-16 lg:pr-8 xl:pr-0 lg:w-1/2 lg:absolute lg:justify-end lg:bottom-0 lg:left-0 lg:items-center">
           <img
             src="https://kitwind.io/assets/kometa/laptop.png"
