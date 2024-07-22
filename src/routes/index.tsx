@@ -1,6 +1,7 @@
 import { component$, useStore, $ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 import { useServerTimeLoader } from "./layout";
+// import ImgImageRemovebgPreview from '~/media/image-removebg-preview.png?jsx';
 
 
 export default component$(() => {
@@ -18,23 +19,23 @@ export default component$(() => {
       <div class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div class="relative flex items-center justify-between">
           <div class="flex items-center">
-            <a href="/" aria-label="Company" title="Company" class="inline-flex items-center mr-8">
+            <a href="#" aria-label="Company" title="Company" class="inline-flex items-center mr-8">
               <img  width="752" height="279" src="/image-removebg-preview.png" alt="logo" class="w-32"/>
-                {/* <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">MRADI AFRICA</span> */}
+              {/* <ImgImageRemovebgPreview name="image-removebg-preview.png" /> */}
             </a>
             <ul class="flex items-center hidden space-x-8 lg:flex">
               <li>
-                <a href="/" aria-label="Process" title="Process" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">
+                <a href="#" aria-label="Process" title="Process" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">
                   Process
                 </a>
               </li>
               <li>
-                <a href="/" aria-label="Contact Us" title="Contact Us" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">
+                <a href="#" aria-label="Contact Us" title="Contact Us" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">
                   Contact
                 </a>
               </li>
               <li>
-                <a href="/" aria-label="About us" title="About us" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">
+                <a href="#" aria-label="About us" title="About us" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">
                   About us
                 </a>
               </li>
@@ -43,7 +44,7 @@ export default component$(() => {
           <ul class="flex items-center hidden space-x-8 lg:flex">
             <li>
               <a
-                href="/"
+                href="#"
                 class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
                 aria-label="Get Quote"
                 title="Get Quote"
@@ -69,7 +70,7 @@ export default component$(() => {
               <div class="p-5 bg-white border rounded shadow-sm">
                 <div class="flex items-center justify-between mb-4">
                   <div>
-                    <a href="/" aria-label="Company" title="Company" class="inline-flex items-center">
+                    <a href="#" aria-label="Company" title="Company" class="inline-flex items-center">
                     <img  width="752" height="279" src="/image-removebg-preview.png" alt="logo" class="w-32"/>
                     </a>
                   </div>
@@ -92,22 +93,22 @@ export default component$(() => {
                 <nav>
                   <ul class="space-y-4">
                     <li>
-                      <a href="/" aria-label="Our product" title="Our product" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">
+                      <a href="#" aria-label="Our product" title="Our product" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">
                         Product
                       </a>
                     </li>
                     <li>
-                      <a href="/" aria-label="Process" title="Process" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">
+                      <a href="#" aria-label="Process" title="Process" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">
                         Process
                       </a>
                     </li>
                     <li>
-                      <a href="/" aria-label="About us" title="About Us" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">
+                      <a href="#" aria-label="About us" title="About Us" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">
                         Contact Us
                       </a>
                     </li>
                     <li>
-                      <a href="/" aria-label="Contact us" title="Contact us" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">
+                      <a href="#" aria-label="Contact us" title="Contact us" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">
                         About us
                       </a>
                     </li>
@@ -345,7 +346,7 @@ export default component$(() => {
               </p>
             </div>
             <div>
-              <a href="/" aria-label="" class="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">
+              <a href="#" aria-label="" class="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">
                 Contact Us
                 <svg class="inline-block w-3 ml-2" fill="currentColor" viewBox="0 0 12 12">
                   <path d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z"></path>
@@ -373,7 +374,7 @@ export default component$(() => {
       <div class="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div class="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
           <div class="sm:col-span-2">
-            <a href="/" aria-label="Go home" title="Company" class="inline-flex items-center">
+            <a href="#" aria-label="Go home" title="Company" class="inline-flex items-center">
             <img  width="752" height="279" src="/image-removebg-preview.png" alt="logo" class="w-32"/>
             </a>
             <div class="mt-6 lg:max-w-sm">
@@ -402,14 +403,14 @@ export default component$(() => {
           <div>
             <span class="text-base font-bold tracking-wide text-gray-900">Social</span>
             <div class="flex items-center mt-1 space-x-3">
-              <a href="/" class="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-400">
+              <a href="#" class="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-400">
                 <svg viewBox="0 0 24 24" fill="currentColor" class="h-5">
                   <path
                     d="M24,4.6c-0.9,0.4-1.8,0.7-2.8,0.8c1-0.6,1.8-1.6,2.2-2.7c-1,0.6-2,1-3.1,1.2c-0.9-1-2.2-1.6-3.6-1.6 c-2.7,0-4.9,2.2-4.9,4.9c0,0.4,0,0.8,0.1,1.1C7.7,8.1,4.1,6.1,1.7,3.1C1.2,3.9,1,4.7,1,5.6c0,1.7,0.9,3.2,2.2,4.1 C2.4,9.7,1.6,9.5,1,9.1c0,0,0,0,0,0.1c0,2.4,1.7,4.4,3.9,4.8c-0.4,0.1-0.8,0.2-1.3,0.2c-0.3,0-0.6,0-0.9-0.1c0.6,2,2.4,3.4,4.6,3.4 c-1.7,1.3-3.8,2.1-6.1,2.1c-0.4,0-0.8,0-1.2-0.1c2.2,1.4,4.8,2.2,7.5,2.2c9.1,0,14-7.5,14-14c0-0.2,0-0.4,0-0.6 C22.5,6.4,23.3,5.5,24,4.6z"
                   ></path>
                 </svg>
               </a>
-              <a href="/" class="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-400">
+              <a href="#" class="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-400">
                 <svg viewBox="0 0 30 30" fill="currentColor" class="h-6">
                   <circle cx="15" cy="15" r="4"></circle>
                   <path
@@ -417,7 +418,7 @@ export default component$(() => {
                   ></path>
                 </svg>
               </a>
-              <a href="/" class="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-400">
+              <a href="#" class="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-400">
                 <svg viewBox="0 0 24 24" fill="currentColor" class="h-5">
                   <path
                     d="M22,0H2C0.895,0,0,0.895,0,2v20c0,1.105,0.895,2,2,2h11v-9h-3v-4h3V8.413c0-3.1,1.893-4.788,4.659-4.788 c1.325,0,2.463,0.099,2.795,0.143v3.24l-1.918,0.001c-1.504,0-1.795,0.715-1.795,1.763V11h4.44l-1,4h-3.44v9H22c1.105,0,2-0.895,2-2 V2C24,0.895,23.105,0,22,0z"
@@ -436,13 +437,13 @@ export default component$(() => {
           </p>
           <ul class="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
             <li>
-              <a href="/" class="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">F.A.Q</a>
+              <a href="#" class="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">F.A.Q</a>
             </li>
             <li>
-              <a href="/" class="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">Privacy Policy</a>
+              <a href="#" class="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">Privacy Policy</a>
             </li>
             <li>
-              <a href="/" class="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">Terms &amp; Conditions</a>
+              <a href="#" class="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">Terms &amp; Conditions</a>
             </li>
           </ul>
         </div>
